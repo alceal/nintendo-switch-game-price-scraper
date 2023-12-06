@@ -1,12 +1,33 @@
 # Nintendo Switch Game Price Scraper
 
-<p align="center">
-    <a href="https://pre-commit.com"><img alt="pre-commit" src="https://img.shields.io/badge/Pre--commit-enabled-brightgreen?logo=pre-commit"></a>
-    <a href="https://prettier.io"><img alt="prettier" src="https://img.shields.io/badge/Code_style-prettier-ff69b4.svg"></a>
-</p>
+## Introduction
 
-> A web scraping tool that extracts Nintendo Switch game titles and their prices
+The Nintendo Switch Game Price Scraper demonstrates web scraping capabilities using Rust. This project exhibits my proficiency in Rust development by creating a web scraping tool that extracts game titles and their prices from a specific webpage and displays the information in the terminal.
 
-## Version Control System diagram
+## Dependencies
 
-![Version Control System diagram](https://images.prismic.io/clubhouse/e02ba62c-26e6-4250-acff-1b2c93ecc789_image-32.png?auto=format%2Ccompress&rect=0%2C0%2C905%2C379&w=756&h=317&fit=max&q=50)
+This project relies on the following crates from crates.io:
+
+- `reqwest`: Facilitates making HTTP requests.
+- `scraper`: A tool for parsing HTML content.
+- `regex`: Used for pattern matching within the scraped content.
+
+## Installation
+
+To utilize the Nintendo Switch Game Price Scraper, follow these installation steps:
+
+```bash
+git clone <https://github.com/yourusername/nintendo-switch-game-price-scraper.git>
+cd nintendo-switch-game-price-scraper
+cargo build --release
+```
+
+## Usage
+
+The Nintendo Switch Game Price Scraper is designed to extract game titles and prices from a specific webpage. Here's an example of how to use it:
+
+```bash
+cargo run
+```
+
+This will execute the scraper and display the game titles and their respective prices in the terminal.
