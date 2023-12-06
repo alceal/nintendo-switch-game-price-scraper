@@ -11,10 +11,11 @@ repos:
       - id: check-yaml
       - id: check-json
 
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v4.0.0-alpha.3
-    hooks:
-      - id: prettier
+  # It fails:
+  # - repo: https://github.com/pre-commit/mirrors-prettier
+  #   rev: v4.0.0-alpha.3
+  #   hooks:
+  #     - id: prettier
 
 
   # Specific
